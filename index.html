@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>BookPod.</title>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS LINK -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- FONT ICON -->
+	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+
+
+</head>
+
+<body>
+	<nav>
+		<div class="logo">
+			<h3>BookPod.</h3>
+		</div>
+		<div class="menu">
+			<a href="">Home</a>
+			<a href="">Categories</a>
+			<a href="">Podcasts</a>
+		</div>
+		<div class="search">
+			<div class="box">
+
+				<i class="fas fa-search search1"></i>
+
+				<input type="text" name="" placeholder="Search">
+
+			</div>
+		</div>
+
+
+	</nav>
+	<nav class="nav1">
+		<div>
+			<i class="fas fa-bars" id="menu"></i>
+			<section id="sidenav">
+				<ul>
+					<li> <a href="">Home</a></li>
+				</ul>
+				<ul>
+					<li> <a href="">Categories</a></li>
+				</ul>
+				<ul>
+					<li> <a href="">Podcasts</a></li>
+				</ul>
+
+			</section>
+		</div>
+		<div>
+			<a href="" class="logo1">BookPod.</a>
+		</div>
+		<div>
+			<i class="fas fa-search search1"></i>
+		</div>
+	</nav>
+
+	<div class="center">
+		<h1>Home of <P class="center1">100,000<sup>+</sup></P> <br>books and podcasts</h1>
+		<p class="center2">Get the latest books and listen to the <br>latest product all in one place</p>
+		<button>Get Started</button>
+	</div>
+
+	<div class="image"><img src="b.jpg"></div>
+
+	<div class="content">
+		<h3 class="content1">Lorem IPSUM</h3>
+		<h2>Lorem Ipsum <br>dolor sit amet</h2>
+		<br>
+
+		<p class="content2">Amity University provides world-class education <br> in diverse streams including
+			engineering,
+			<br>management, medical and others. Visit <br>our campus to know more.
+		</p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<span class="social">
+			<i class="fab fa-twitter "></i>
+			<i class="fab fa-facebook "></i>
+			<i class="fab fa-instagram "></i>
+			<i class="fab fa-linkedin "></i>
+
+		</span>
+	</div>
+
+	<div class="footer">
+
+		<h3 class="footer1">Featured Writers</h3>
+
+		<div class="footer2">
+			<img src="./image/1.jpg" class="footer4">
+			<h3 class="footer6">E R Braithwaite</h3>
+			<img src="./image/2.jpg" class="footer4">
+			<h3 class="footer6">Andrea Levy</h3>
+			<img src="./image/3.jpg" class="footer4">
+			<h3 class="footer6">Stephen King</h3>
+			<img src="./image/4.jpg" class="footer4">
+			<h3 class="footer6">Jorge Amado</h3>
+		</div>
+		<div class="footer3">
+			<img src="./image/5.jpg" class="footer5">
+			<h3 class="footer6">Gayle Forman</h3>
+			<img src="./image/6.jpg" class="footer5">
+			<h3 class="footer6">Shashi Tharoor</h3>
+			<img src="./image/7.jpg" class="footer5">
+			<h3 class="footer6">J.K Rowling</h3>
+			<img src="./image/8.jpg" class="footer5">
+			<h3 class="footer6">John Green</h3>
+		</div>
+
+
+	</div>
+
+
+	<!-- second foot -->
+	<div class="foot">
+
+		<h3 class="foot1">Featured Writers</h3>
+
+		<div class="foot2">
+			<img src="./image/1.jpg" class="foot4">
+			<h3 class="foot6">E R Braithwaite</h3>
+			<img src="./image/3.jpg" class="foot4">
+			<h3 class="foot6">Stephen King</h3>
+			<img src="./image/5.jpg" class="foot4">
+			<h3 class="foot6">Gayle Forman</h3>
+			<img src="./image/7.jpg" class="foot4">
+			<h3 class="foot6">J.K Rowling</h3>
+		</div>
+		<div class="foot3">
+			<img src="./image/2.jpg" class="foot5">
+			<h3 class="foot6">Andrea Levy</h3>
+			<img src="./image/4.jpg" class="foot5">
+			<h3 class="foot6">Jorge Amado</h3>
+			<img src="./image/6.jpg" class="foot5">
+			<h3 class="foot6">Shashi Tharoor</h3>
+			<img src="./image/8.jpg" class="foot5">
+			<h3 class="foot6">John Green</h3>
+		</div>
+
+
+	</div>
+
+	<script>
+		var menu = document.getElementById("menu");
+		var sidenav = document.getElementById("sidenav");
+		sidenav.style.width = "0px";
+		menu.onclick = function () {
+			if (sidenav.style.width == "0px") {
+				sidenav.style.width = "250px";
+				sidenav.style.visibility = "visible";
+			}
+			else {
+				sidenav.style.width = "0px";
+				sidenav.style.visibility = "hidden";
+
+			}
+		} 
+	</script>
+
+
+
+</body>
+
+</html>
